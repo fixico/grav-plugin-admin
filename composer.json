@@ -1,4 +1,24 @@
 {
+    "name": "getgrav/admin",
+    "type": "grav-plugin",
+    "description": "Adds an advanced administration panel to manage your site",
+    "keywords": [
+        "admin",
+        "plugin",
+        "manager",
+        "panel"
+    ],
+    "homepage": "https://github.com/getgrav/grav-plugin-admin",
+    "support": {
+        "issues": "https://github.com/getgrav/grav-plugin-admin/issues"
+    },
+    "authors": [
+        {
+            "name": "Team Grav",
+            "email": "devs@getgrav.org",
+            "homepage": "http://getgrav.org"
+        }
+    ],
     "require": {
         "composer/semver": "^1.4",
         "fguillot/picofeed": "@stable"
@@ -14,5 +34,6 @@
     "scripts": {
         "test": "vendor/bin/codecept run unit",
         "test-windows": "vendor\\bin\\codecept run unit"
-    }
+    },
+    "license": "MIT"
 }
